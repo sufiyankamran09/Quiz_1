@@ -111,7 +111,7 @@ const Tweet = () => {
   return (
     <Container>
       <TweetInput
-        rows="3"
+       rows={3}
         value={newTweet}
         onChange={handleTweetChange}
         placeholder="What's happening?"
